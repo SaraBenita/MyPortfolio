@@ -26,33 +26,27 @@ const Hero = () => {
                             Specialized in Java, C#, and modern web technologies.
                         </p>
                         <div className="flex gap-4">
-                            <motion.button
+                            <Link
+                                to="projects"
+                                smooth={true}
+                                duration={500}
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-secondary text-white px-8 py-3 rounded-full hover:bg-opacity-80"
                             >
-                                <Link
-                                    to="projects"
-                                    smooth={true}
-                                    duration={500}
-                                >
-                                    View Projects
-                                </Link>
-                            </motion.button>
-
-                            <motion.button
+                                View Projects
+                            </Link>
+                            <Link
+                                to="footer"
+                                smooth={true}
+                                duration={500}
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="border-2 border-secondary text-secondary px-8 py-3 rounded-full hover:bg-secondary hover:text-white transition-colors"
                             >
-                                <Link
-                                    to="footer"
-                                    smooth={true}
-                                    duration={500}
-                                >
-                                    Contact Me
-                                </Link>
-                            </motion.button>
+                                Contact Me
+                            </Link>
+
                         </div>
                     </motion.div>
 

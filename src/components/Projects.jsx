@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
 import stepperImage from '../assets/Stepper.png';  // או .jpg
-import safeChat from '../assets/safechat.png';
+import safeChat from '../assets/image.png';
 import faceBookImage from '../assets/faceBookImage.png';
 import bookServer from '../assets/bookServer.png';
 import server from '../assets/server.png';
